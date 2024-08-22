@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sample.js" defer></script>
+</head>
+<body>
+    <!-- <script src="sample.js" defer></script> -->
+
+    <h1>REGISTRATION FORM</h1>
+    
+    <form>
+
+      
+
+        <center>
+        <table cellspacing="15px">
+         <tr>
+            <td><label for="fname">First name:</label></td>
+            <td><input type="text" id="fname" name="fname" placeholder="Firstname"></td>
+        </tr>
+
+        <tr>
+            <td><label for="lname">Last name:</label></td>
+            <td><input type="text" id="lname" name="lname" placeholder="Lastname"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" placeholder="Sudhan@gmail.com"></td>
+        </tr>
+
+        <tr>
+            <td><label for="phone">Contact Number:</label></td>
+            <td><input type="tel" id="phone" name="phone" placeholder="Enter 10-digit number"></td>
+       </tr>
+
+       <tr>
+            <td><label for="address">Address:</label></td>
+            <td><input type="text" id="address" name="address" placeholder="Enter your address"></td>
+        </tr>
+
+    <tr>
+       <td><label for="city">Choose a city:</label></td>
+       <td> <select id="city" name="city" required>
+            <option value="">Select your city</option>
+            <option value="chennai">Chennai</option>
+            <option value="coimbatore">Coimbatore</option>
+            <option value="madurai">Madurai</option>
+            <option value="tirunelveli">Tirunelveli</option>
+            <option value="dindigul">Dindigul</option>
+            <option value="erode">Erode</option>
+            <option value="nagerkovil">Nagerkovil</option>
+        </select></td> 
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><input type="radio" name="g">Male<input type="radio" name="g">Female</td>
+        </tr>
+    </tr>
+
+      <tr>
+        <td></td>
+         <td> <button type="submit" id="registerButton">Register</button></td>
+      </tr>
+
+    </table>
+
+</center>
+    </form>
+
+</body>
+</html>
